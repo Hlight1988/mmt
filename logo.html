@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>美团登录</title>
+<link href="css/login.css" rel="stylesheet"/>
+<!--<style>
+
+#header{ width:100%;}
+.header_con { width:980px; height:55px; margin:40px auto 30px;}
+
+#content { width:980px; height:370px; margin:0 auto 70px; }
+.side_left{ float:left;}
+.side_right{ float:right; margin-right:116px; width:270px; height:400px; }
+.form{ padding-top:50px; width:270px; height:225px; }
+.side_right_title{  width:270px; height:20px; line-height:20px;}
+#loginByMoblie{padding-right:20px; background:url(images/login/moblie_bg.png) 91px 1px no-repeat; float:right; text-decoration:none; font-size:12px; color:#999;} 
+#loginByMoblie:hover { text-decoration:underline;}
+.side_right_title span { color:#999;}
+
+.text { padding-left:32px; width:235px; height:33px; margin:8px 0; font-size:14px; border:none; border:1px solid #999;}
+#username { background:url(images/login/username_bg.png) 0 -1px no-repeat;}
+#password { background:url(images/login/password.png) 0 -1px no-repeat;}
+
+#auto_login { margin-top:-1px; }
+#auto_login a { font-size:12px; text-decoration:none; color:#2bb8aa; float:right;}
+#auto_login a:hover { text-decoration:underline;}
+#auto_login span { font-size:12px;}
+
+#login { margin-bottom:10px; border-radius:1px;  cursor:pointer;  width:268px; height:37px; color:#fff; font-size:16px; border:none; background:url(images/login/login_btn.png) repeat-x;}
+#login:hover { background:url(images/login/login_btn2.png) 0 -1px repeat-x;}
+
+.reg { margin-top:-1px; color:#666;}
+.reg a { text-decoration:none; color:#2bb8aa; font-size:14px; }
+.cooperation { color:#333; font-size:14px; text-align:center; height:20px; line-height:20px; position:relative;}
+.cooperation span { margin-top:9px; height:1px; width:60px; background:#ddd; display:block;}
+.line_le { float:left;}
+.line_ri { float:right;}
+
+.qq_login { width:270px; height:30px; text-align:center;}
+.qq_login input { width:20px; height:20px; margin: 0 7px; cursor:pointer; border:none;}
+#qq { background:url(images/login/qq.png) no-repeat;}
+#qq:hover { background:url(images/login/qq2.png) no-repeat;}
+#sina { background:url(images/login/sina.png) no-repeat;}
+#sina:hover { background:url(images/login/sina2.png) no-repeat;}
+
+#footer { width:980px; margin:0 auto;}
+#footer a{ text-decoration:none; color:#999; font-size:12px;}
+#footer a:hover{ text-decoration:underline;}
+#colum { line-height:48px; width:980px; height:48px; border-top:1px solid #eee; border-bottom:1px solid #eee; }
+.cloumList{ float:left; height:13px; padding:17px 0; line-height:13px; color:#999;}
+.cloumList i {line-height:12px; width:1px; height:12px; background:#eee; margin:0 12px; display:inline-block;}
+
+.columRight { margin-top:12px; margin-right:110px; line-height:24px; width:276px; height:24px; float:right;}
+
+.footerBot {width:980px; height:14px; color:#999; font-size:12px; margin-top:20px;}
+</style>-->
+</head>
+
+<body>
+
+	<div id="header">
+    
+    	<div class="header_con">
+        	<a href="index.html"><img src="images/login/logo.png" alt="logo"></a>
+        </div>
+    
+    </div>
+    
+    <div id="content">
+    		<div class="side_left">
+            	<img src="images/login/login_bg.png" alt="login_bg.png">
+            </div>
+        
+             <div class="side_right">
+                	
+                    <form class="form">
+                        <div class="side_right_title">
+                            <span>账号登录</span>
+                            <a href="#" id="loginByMoblie">手机动态码登录 </a>
+                        </div>
+                    	<input type="text" name="username" class="text" id="username" placeholder="手机号/用户名/邮箱">
+                    	<input type="password" name="username" class="text" id="password" placeholder="密码">
+                    	<p id="auto_login">
+                            <input type="checkbox" name="autoLogin" id="autoLogin"> 
+                            <span>7天内自动登录</span>
+                            <a href="#">忘记密码？</a>
+                        </p>
+                        <input type="submit" name="login" id="login" value="登录">
+                        
+                       	<p class="reg">还没有账号？<a href="reg.html">免费注册</a></p>
+                    </form>
+                
+                	<p class="cooperation"><span class="line_le"></span>用合作网站账号登录<span class="line_ri"></span></p>
+             		
+                    <div class="qq_login">
+                    	<input type="button" name="qq" id="qq">
+                        <input type="button" name="sina" id="sina">
+             		</div>
+             </div>
+    </div>
+    
+    <div id="footer">
+    	<div id="colum">
+        	<div class="cloumList">
+                <a href="#">关于美团</a>
+                <i></i>
+                <a href="#">美团承诺</a>
+                <i></i>
+                <a href="#">加入我们</a>
+                <i></i>
+                <a href="#">商家入驻</a>
+                <i></i>
+                <a href="#">帮助中心</a>
+                <i></i>
+                <a href="#">美团手机版</a>
+            </div>
+            <div class="columRight">
+             	<a href="#"><img src="images/login/footer-commitment.png" alt="footer-commitment.png"/></a>
+            </div>
+            
+        </div>
+        
+        <p class="footerBot">
+                ©<span>2016</span>
+                 <a href="index.html">美团网团购 </a>
+                 <span>meituan.com </span>
+                 <a href="#">京ICP证070791号</a>
+                 <span>京公网安备11010502025545号 </span>
+                 <a href="#">电子公告服务规则</a>
+             </p>
+    </div>
+</body>
+</html>

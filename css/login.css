@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+<!--css reset-->
+body,p{margin:0; font-size:12px;/* font-family:XX; */}
+ul{list-style:none;padding:0;margin:0;}
+a{text-decoration:none;}
+img{border:none;}
+
+#header{ width:100%;}
+.header_con { width:980px; height:55px; margin:40px auto 30px;}
+
+#content { width:980px; height:370px; margin:0 auto 70px; }
+.side_left{ float:left;}
+.side_right{ float:right; margin-right:116px; width:270px; height:400px; }
+.form{ padding-top:50px; width:270px; height:225px; }
+.side_right_title{  width:270px; height:20px; line-height:20px;}
+#loginByMoblie{padding-right:20px; background:url(../images/login/moblie_bg.png) 91px 1px no-repeat; float:right; text-decoration:none; font-size:12px; color:#999;} 
+#loginByMoblie:hover { text-decoration:underline;}
+.side_right_title span { color:#999;}
+
+.text { padding-left:32px; width:235px; height:33px; margin:8px 0; font-size:14px; border:none; border:1px solid #999;}
+#username { background:url(../images/login/username_bg.png) 0 -1px no-repeat;}
+#password { background:url(../images/login/password.png) 0 -1px no-repeat;}
+
+#auto_login { margin-top:-1px; }
+#auto_login a { font-size:12px; text-decoration:none; color:#2bb8aa; float:right;}
+#auto_login a:hover { text-decoration:underline;}
+#auto_login span { font-size:12px;}
+
+#login {margin:10px 0; border-radius:1px;  cursor:pointer;  width:268px; height:37px; color:#fff; font-size:16px; border:none; background:url(../images/login/login_btn.png) repeat-x;}
+#login:hover { background:url(../images/login/login_btn2.png) 0 -1px repeat-x;}
+
+.reg { margin-top:-1px; color:#666;}
+.reg a { color:#2bb8aa; font-size:14px; }
+.reg a:hover { text-decoration:underline;  }
+.cooperation { color:#333; font-size:14px; text-align:center; height:20px; line-height:20px; position:relative;}
+.cooperation span { margin-top:9px; height:1px; width:60px; background:#ddd; display:block;}
+.line_le { float:left;}
+.line_ri { float:right;}
+
+.qq_login { width:270px; height:30px; text-align:center; margin-top:15px;}
+.qq_login input { width:20px; height:20px; margin: 0 7px; cursor:pointer; border:none;}
+#qq { background:url(../images/login/qq.png) no-repeat;}
+#qq:hover { background:url(../images/login/qq2.png) no-repeat;}
+#sina { background:url(../images/login/sina.png) no-repeat;}
+#sina:hover { background:url(../images/login/sina2.png) no-repeat;}
+
+#footer { width:980px; margin:0 auto;}
+#footer a{ color:#999; font-size:12px;}
+#footer a:hover{ text-decoration:underline;}
+#colum { line-height:48px; width:980px; height:48px; border-top:1px solid #eee; border-bottom:1px solid #eee; }
+.cloumList{ float:left; height:13px; padding:17px 0; line-height:13px; color:#999;}
+.cloumList i {line-height:12px; width:1px; height:12px; background:#eee; margin:0 12px; display:inline-block;}
+
+.columRight { margin-top:12px; margin-right:110px; line-height:24px; width:276px; height:24px; float:right;}
+
+.footerBot {width:980px; height:14px; color:#999; font-size:12px; margin-top:20px;}

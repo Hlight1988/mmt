@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>注册|美团</title>
+<link href="css/reg.css" rel="stylesheet"/>
+<script src="js/jquery-1.4.4/jquery.min.js"></script>
+<script src="js/reg.js"></script>
+</head>
+
+<body>
+
+	<div id="header">
+    	
+        <div class="header_mid">
+        	<div class="header_mid_con">
+                <a id="logo_pic" href="index.html"><img src="images/reg/logo.png"></a>
+                <div id="login">
+                    <span>已有美团账号？</span>
+                    <a href="logo.html">登录</a>
+                </div>
+            </div><!--header_mid_con-->
+        </div><!--header_mid-->
+           
+    </div><!--header-->
+    <div id="content">
+    	<div id="content_con">
+        	<form >
+            	<div class="mobile">
+                	<label>手机号</label>
+                    <input type="text" name="tel" id="tel" class="text">
+                    <span id="tel2" class="tel_tip tel_tip2">注册成功后，全美团通用</span>
+                   	<span class="tel_tip inline-tip" >
+                    	<i class="tip-status"></i>
+                        请输入正确的11位手机号码
+                    </span>
+                    <img id="true_tip" src="images/reg/icon.png" alt="icon" class="icon" name="icon"/>
+                </div>
+                
+                <div id="getCode">
+                	<div class="captcha">
+                        <input class="captcha_moblie text" type="text" id="captcha_moblie" name="captcha_moblie">
+                        <img class="captcha_moblie_pic" src="images/reg/captcha_moblie_pic.png" >
+                        <a href="#" class="captcha_moblie_tip">看不清楚？换一张</a>
+                    </div>
+                    <div class="verifty-wrapper">
+                        <input class="moblie_getCode_btn" type="button" value="免费获取短信动态码">
+                        <span id="moblie_tit">请输入验证码</span>
+                    </div>               
+                </div>
+                
+                <div class="mobile password">
+                	<label>短信动态码</label>
+                    <input type="text" name="tel" class="text" id="moveCode">
+                     <span class="tel_tip inline-tip" >
+                    	<i class="tip-status"></i>
+                       输入错误，请重新输入
+                    </span>
+                    <img src="images/reg/icon.png" alt="icon" class="icon" name="icon"/>
+                    
+                </div>
+                
+                <div  class="mobile password">
+                	<label>创建密码</label>
+                    <input type="text" name="tel" class="text" id="createPassword">
+                     <span class="tel_tip inline-tip" >
+                    	<i class="tip-status"></i>
+                       输入错误，请重新输入
+                    </span>
+                   <img src="images/reg/icon.png" alt="icon" class="icon" name="icon"/>              
+                </div>
+                
+                <div id="password_ss">
+                        <div class="sweek">弱</div>
+                        <div class="mid">中</div>
+                        <div class="strong">强</div>
+                   </div>
+                
+                 <div  class="mobile password">
+                	<label>确认密码</label>
+                    <input type="text" name="tel" class="text" id="rePassword">
+                     <span class="tel_tip inline-tip" >
+                    	<i class="tip-status"></i>
+                       输入错误，请重新输入
+                    </span>
+                    <img src="images/reg/icon.png" alt="icon" class="icon" name="icon"/>
+                </div>
+                
+                <div id="form-field">
+                	<input type="submit" name="commit" value="同意以下协议并注册" id="commit">          
+                </div> 
+                             
+            </form>
+        </div>
+        
+        <div id="term">
+        	<a href="#">《美团网用户协议》</a>
+        </div>
+    </div><!--content-->
+    
+    <div id="footer">
+    	<div class="footer_con">
+        	<a href="index.html">©meituan.com</a>
+            <a href="index.html">京ICP证070791号</a>
+             <span>京公网安备11010502025545号</span>
+        </div>
+    </div><!--footer-->
+    
+</body>
+</html>
